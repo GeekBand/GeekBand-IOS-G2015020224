@@ -9,10 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "TLMUserModel.h"
 
-@interface TLMGetImage : NSObject <NSURLConnectionDataDelegate>
-
-@property (nonatomic, strong) NSURLConnection *urlConnection;
-@property (nonatomic, strong) NSMutableData *receivedData;
+@interface TLMGetImage : NSObject
 
 - (void)sendGetImageRequest;
 

@@ -10,6 +10,7 @@
 #import "TLMReImageRequest.h"
 
 @interface TLMHeadImageViewController : UIViewController <TLMReImageRequestDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
 @property (weak, nonatomic) IBOutlet UIImageView *headImageView;
 - (IBAction)doneButtonClicked:(id)sender;
 - (IBAction)addActionSheet:(id)sender;

@@ -25,6 +25,10 @@
     self.headImageView.clipsToBounds = YES;
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    
+    self.nickNameLabel.text = [TLMGlobal shareGlobal].user.username;
+    self.headImageView.image = [TLMGlobal shareGlobal].user.image;
+    self.emailLabel.text = [TLMGlobal shareGlobal].user.email;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
