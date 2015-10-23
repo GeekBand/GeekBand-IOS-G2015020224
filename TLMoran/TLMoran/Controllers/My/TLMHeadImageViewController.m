@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.headImageView.image = [TLMGlobal shareGlobal].user.image;
 }
 
 - (void)didReceiveMemoryWarning {

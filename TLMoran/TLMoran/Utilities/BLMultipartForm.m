@@ -72,10 +72,13 @@
 				if(!v)
 					return nil;
 			} else {
+                
 				v = [v dataUsingEncoding:NSUTF8StringEncoding];
+              
 			}
 		} else {
-			v = [[v description] dataUsingEncoding:NSUTF8StringEncoding];
+
+             
 		}
 		
 		if(isFile) {
@@ -88,6 +91,7 @@
 		[body appendData:v];
 		[body appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
 		[body appendData:boundaryData];
+      
 	}
 	
 	return body;

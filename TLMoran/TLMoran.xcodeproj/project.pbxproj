@@ -24,7 +24,6 @@
 		CD9D0AE31BCBD23400E533C1 /* TLMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AE21BCBD23400E533C1 /* TLMLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CD9ED2F11BD3892E00C0BE4B /* TLMHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9ED2F01BD3892E00C0BE4B /* TLMHomepageViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CDC0D05D1BCCA83800C8FCD6 /* TLMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D05C1BCCA83800C8FCD6 /* TLMUserModel.m */; settings = {ASSET_TAGS = (); }; };
-		CDC0D0601BCCACA800C8FCD6 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D05F1BCCACA800C8FCD6 /* BLMultipartForm.m */; settings = {ASSET_TAGS = (); }; };
 		CDC0D0631BCCBF0700C8FCD6 /* TLMLoginRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D0621BCCBF0700C8FCD6 /* TLMLoginRequestParser.m */; settings = {ASSET_TAGS = (); }; };
 		CDCC0DE31BD8B31D0014B874 /* TLMNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DE21BD8B31D0014B874 /* TLMNickNameViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CDCC0DE71BD8B3850014B874 /* TLMGetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DE61BD8B3850014B874 /* TLMGetImage.m */; settings = {ASSET_TAGS = (); }; };
@@ -34,6 +33,7 @@
 		CDCC0DF41BD8C3630014B874 /* TLMReImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DF31BD8C3630014B874 /* TLMReImageRequest.m */; settings = {ASSET_TAGS = (); }; };
 		CDD6E2D61BD8D53500D1CABD /* TLMHeadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6E2D51BD8D53500D1CABD /* TLMHeadImageViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CDDBE9C61BCE569500ABE158 /* TLMRegisterRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDBE9C51BCE569500ABE158 /* TLMRegisterRequestParser.m */; settings = {ASSET_TAGS = (); }; };
+		CDE6992D1BDA3729006C6AB8 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6992C1BDA3729006C6AB8 /* BLMultipartForm.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +84,6 @@
 		CD9ED2F01BD3892E00C0BE4B /* TLMHomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMHomepageViewController.m; sourceTree = "<group>"; };
 		CDC0D05B1BCCA83800C8FCD6 /* TLMUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMUserModel.h; sourceTree = "<group>"; };
 		CDC0D05C1BCCA83800C8FCD6 /* TLMUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMUserModel.m; sourceTree = "<group>"; };
-		CDC0D05E1BCCACA800C8FCD6 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
-		CDC0D05F1BCCACA800C8FCD6 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
 		CDC0D0611BCCBF0700C8FCD6 /* TLMLoginRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMLoginRequestParser.h; sourceTree = "<group>"; };
 		CDC0D0621BCCBF0700C8FCD6 /* TLMLoginRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMLoginRequestParser.m; sourceTree = "<group>"; };
 		CDCC0DE11BD8B31D0014B874 /* TLMNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMNickNameViewController.h; sourceTree = "<group>"; };
@@ -104,6 +102,8 @@
 		CDD6E2D51BD8D53500D1CABD /* TLMHeadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMHeadImageViewController.m; sourceTree = "<group>"; };
 		CDDBE9C41BCE569500ABE158 /* TLMRegisterRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMRegisterRequestParser.h; sourceTree = "<group>"; };
 		CDDBE9C51BCE569500ABE158 /* TLMRegisterRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMRegisterRequestParser.m; sourceTree = "<group>"; };
+		CDE6992B1BDA3729006C6AB8 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
+		CDE6992C1BDA3729006C6AB8 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,8 +357,8 @@
 		CDC0D0571BCCA74100C8FCD6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				CDC0D05E1BCCACA800C8FCD6 /* BLMultipartForm.h */,
-				CDC0D05F1BCCACA800C8FCD6 /* BLMultipartForm.m */,
+				CDE6992B1BDA3729006C6AB8 /* BLMultipartForm.h */,
+				CDE6992C1BDA3729006C6AB8 /* BLMultipartForm.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -521,13 +521,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC0D0601BCCACA800C8FCD6 /* BLMultipartForm.m in Sources */,
 				CDCC0DED1BD8B3B90014B874 /* TLMLoginRequest.m in Sources */,
 				CDDBE9C61BCE569500ABE158 /* TLMRegisterRequestParser.m in Sources */,
 				CD7C07351BD334FE00A25C7C /* TLMMyTableViewController.m in Sources */,
 				CDCC0DE31BD8B31D0014B874 /* TLMNickNameViewController.m in Sources */,
 				CD7C07391BD33BEC00A25C7C /* TLMGlobal.m in Sources */,
 				CDC0D0631BCCBF0700C8FCD6 /* TLMLoginRequestParser.m in Sources */,
+				CDE6992D1BDA3729006C6AB8 /* BLMultipartForm.m in Sources */,
 				CDCC0DEE1BD8B3B90014B874 /* TLMRegisterRequest.m in Sources */,
 				CD9D0ADC1BCBCF7200E533C1 /* main.m in Sources */,
 				CD7AA97F1BD8A12200112BAE /* AppDelegate.m in Sources */,
