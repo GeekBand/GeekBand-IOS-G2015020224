@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7AA97F1BD8A12200112BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7AA97E1BD8A12200112BAE /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		CD7BF8801BCE1F8800E7788D /* TLMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7BF87F1BCE1F8800E7788D /* TLMRegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CD7C072B1BD277C400A25C7C /* TLMMy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7C072A1BD277C400A25C7C /* TLMMy.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CD7C07301BD2815800A25C7C /* My.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7C072F1BD2815800A25C7C /* My.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CD7C07321BD2818C00A25C7C /* Square.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7C07311BD2818C00A25C7C /* Square.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CD7C07351BD334FE00A25C7C /* TLMMyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7C07341BD334FE00A25C7C /* TLMMyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CD7C07391BD33BEC00A25C7C /* TLMGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7C07381BD33BEC00A25C7C /* TLMGlobal.m */; settings = {ASSET_TAGS = (); }; };
+		CD9D0AA21BCBC99500E533C1 /* TLMoranTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AA11BCBC99500E533C1 /* TLMoranTests.m */; };
+		CD9D0AAD1BCBC99500E533C1 /* TLMoranUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AAC1BCBC99500E533C1 /* TLMoranUITests.m */; };
+		CD9D0AD81BCBCF7200E533C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9D0ACC1BCBCF7200E533C1 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CD9D0AD91BCBCF7200E533C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9D0ACD1BCBCF7200E533C1 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CD9D0ADC1BCBCF7200E533C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AD31BCBCF7200E533C1 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		CD9D0ADE1BCBD16000E533C1 /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9D0ADD1BCBD16000E533C1 /* Main.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CD9D0AE01BCBD1CD00E533C1 /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9D0ADF1BCBD1CD00E533C1 /* LoginAndRegister.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CD9D0AE31BCBD23400E533C1 /* TLMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9D0AE21BCBD23400E533C1 /* TLMLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CD9ED2F11BD3892E00C0BE4B /* TLMHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9ED2F01BD3892E00C0BE4B /* TLMHomepageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CDC0D05D1BCCA83800C8FCD6 /* TLMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D05C1BCCA83800C8FCD6 /* TLMUserModel.m */; settings = {ASSET_TAGS = (); }; };
+		CDC0D0601BCCACA800C8FCD6 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D05F1BCCACA800C8FCD6 /* BLMultipartForm.m */; settings = {ASSET_TAGS = (); }; };
+		CDC0D0631BCCBF0700C8FCD6 /* TLMLoginRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0D0621BCCBF0700C8FCD6 /* TLMLoginRequestParser.m */; settings = {ASSET_TAGS = (); }; };
+		CDCC0DE31BD8B31D0014B874 /* TLMNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DE21BD8B31D0014B874 /* TLMNickNameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CDCC0DE71BD8B3850014B874 /* TLMGetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DE61BD8B3850014B874 /* TLMGetImage.m */; settings = {ASSET_TAGS = (); }; };
+		CDCC0DED1BD8B3B90014B874 /* TLMLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DEA1BD8B3B90014B874 /* TLMLoginRequest.m */; settings = {ASSET_TAGS = (); }; };
+		CDCC0DEE1BD8B3B90014B874 /* TLMRegisterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DEC1BD8B3B90014B874 /* TLMRegisterRequest.m */; settings = {ASSET_TAGS = (); }; };
+		CDCC0DF11BD8B43A0014B874 /* TLMReNameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DF01BD8B43A0014B874 /* TLMReNameRequest.m */; settings = {ASSET_TAGS = (); }; };
+		CDCC0DF41BD8C3630014B874 /* TLMReImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCC0DF31BD8C3630014B874 /* TLMReImageRequest.m */; settings = {ASSET_TAGS = (); }; };
+		CDD6E2D61BD8D53500D1CABD /* TLMHeadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6E2D51BD8D53500D1CABD /* TLMHeadImageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CDDBE9C61BCE569500ABE158 /* TLMRegisterRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDBE9C51BCE569500ABE158 /* TLMRegisterRequestParser.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9D0A9E1BCBC99500E533C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9D0A7C1BCBC99500E533C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9D0A831BCBC99500E533C1;
+			remoteInfo = TLMoran;
+		};
+		CD9D0AA91BCBC99500E533C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9D0A7C1BCBC99500E533C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9D0A831BCBC99500E533C1;
+			remoteInfo = TLMoran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7AA97D1BD8A12200112BAE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD7AA97E1BD8A12200112BAE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7BF87E1BCE1F8800E7788D /* TLMRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMRegisterViewController.h; sourceTree = "<group>"; };
+		CD7BF87F1BCE1F8800E7788D /* TLMRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMRegisterViewController.m; sourceTree = "<group>"; };
+		CD7C072A1BD277C400A25C7C /* TLMMy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TLMMy.storyboard; sourceTree = "<group>"; };
+		CD7C072F1BD2815800A25C7C /* My.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = My.xcassets; sourceTree = "<group>"; };
+		CD7C07311BD2818C00A25C7C /* Square.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Square.xcassets; sourceTree = "<group>"; };
+		CD7C07331BD334FE00A25C7C /* TLMMyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMMyTableViewController.h; sourceTree = "<group>"; };
+		CD7C07341BD334FE00A25C7C /* TLMMyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMMyTableViewController.m; sourceTree = "<group>"; };
+		CD7C07371BD33BEC00A25C7C /* TLMGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMGlobal.h; sourceTree = "<group>"; };
+		CD7C07381BD33BEC00A25C7C /* TLMGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMGlobal.m; sourceTree = "<group>"; };
+		CD9D0A841BCBC99500E533C1 /* TLMoran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLMoran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9D0A9D1BCBC99500E533C1 /* TLMoranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLMoranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9D0AA11BCBC99500E533C1 /* TLMoranTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMoranTests.m; sourceTree = "<group>"; };
+		CD9D0AA31BCBC99500E533C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9D0AA81BCBC99500E533C1 /* TLMoranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLMoranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9D0AAC1BCBC99500E533C1 /* TLMoranUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMoranUITests.m; sourceTree = "<group>"; };
+		CD9D0AAE1BCBC99500E533C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9D0ACC1BCBCF7200E533C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9D0ACE1BCBCF7200E533C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9D0AD21BCBCF7200E533C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9D0AD31BCBCF7200E533C1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD9D0ADD1BCBD16000E533C1 /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
+		CD9D0ADF1BCBD1CD00E533C1 /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
+		CD9D0AE11BCBD23400E533C1 /* TLMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMLoginViewController.h; sourceTree = "<group>"; };
+		CD9D0AE21BCBD23400E533C1 /* TLMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMLoginViewController.m; sourceTree = "<group>"; };
+		CD9ED2EF1BD3892E00C0BE4B /* TLMHomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMHomepageViewController.h; sourceTree = "<group>"; };
+		CD9ED2F01BD3892E00C0BE4B /* TLMHomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMHomepageViewController.m; sourceTree = "<group>"; };
+		CDC0D05B1BCCA83800C8FCD6 /* TLMUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMUserModel.h; sourceTree = "<group>"; };
+		CDC0D05C1BCCA83800C8FCD6 /* TLMUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMUserModel.m; sourceTree = "<group>"; };
+		CDC0D05E1BCCACA800C8FCD6 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
+		CDC0D05F1BCCACA800C8FCD6 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
+		CDC0D0611BCCBF0700C8FCD6 /* TLMLoginRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMLoginRequestParser.h; sourceTree = "<group>"; };
+		CDC0D0621BCCBF0700C8FCD6 /* TLMLoginRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMLoginRequestParser.m; sourceTree = "<group>"; };
+		CDCC0DE11BD8B31D0014B874 /* TLMNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMNickNameViewController.h; sourceTree = "<group>"; };
+		CDCC0DE21BD8B31D0014B874 /* TLMNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMNickNameViewController.m; sourceTree = "<group>"; };
+		CDCC0DE51BD8B3850014B874 /* TLMGetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMGetImage.h; sourceTree = "<group>"; };
+		CDCC0DE61BD8B3850014B874 /* TLMGetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMGetImage.m; sourceTree = "<group>"; };
+		CDCC0DE91BD8B3B90014B874 /* TLMLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMLoginRequest.h; sourceTree = "<group>"; };
+		CDCC0DEA1BD8B3B90014B874 /* TLMLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMLoginRequest.m; sourceTree = "<group>"; };
+		CDCC0DEB1BD8B3B90014B874 /* TLMRegisterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMRegisterRequest.h; sourceTree = "<group>"; };
+		CDCC0DEC1BD8B3B90014B874 /* TLMRegisterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMRegisterRequest.m; sourceTree = "<group>"; };
+		CDCC0DEF1BD8B43A0014B874 /* TLMReNameRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMReNameRequest.h; sourceTree = "<group>"; };
+		CDCC0DF01BD8B43A0014B874 /* TLMReNameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMReNameRequest.m; sourceTree = "<group>"; };
+		CDCC0DF21BD8C3630014B874 /* TLMReImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMReImageRequest.h; sourceTree = "<group>"; };
+		CDCC0DF31BD8C3630014B874 /* TLMReImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMReImageRequest.m; sourceTree = "<group>"; };
+		CDD6E2D41BD8D53500D1CABD /* TLMHeadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMHeadImageViewController.h; sourceTree = "<group>"; };
+		CDD6E2D51BD8D53500D1CABD /* TLMHeadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMHeadImageViewController.m; sourceTree = "<group>"; };
+		CDDBE9C41BCE569500ABE158 /* TLMRegisterRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMRegisterRequestParser.h; sourceTree = "<group>"; };
+		CDDBE9C51BCE569500ABE158 /* TLMRegisterRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMRegisterRequestParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9D0A811BCBC99500E533C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D0A9A1BCBC99500E533C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D0AA51BCBC99500E533C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7AA97C1BD8A12200112BAE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AA97D1BD8A12200112BAE /* AppDelegate.h */,
+				CD7AA97E1BD8A12200112BAE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD7C07361BD33BC800A25C7C /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CD7C07371BD33BEC00A25C7C /* TLMGlobal.h */,
+				CD7C07381BD33BEC00A25C7C /* TLMGlobal.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		CD9D0A7B1BCBC99500E533C1 = {
+			isa = PBXGroup;
+			children = (
+				CD9D0A861BCBC99500E533C1 /* TLMoran */,
+				CD9D0AA01BCBC99500E533C1 /* TLMoranTests */,
+				CD9D0AAB1BCBC99500E533C1 /* TLMoranUITests */,
+				CD9D0A851BCBC99500E533C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9D0A851BCBC99500E533C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0A841BCBC99500E533C1 /* TLMoran.app */,
+				CD9D0A9D1BCBC99500E533C1 /* TLMoranTests.xctest */,
+				CD9D0AA81BCBC99500E533C1 /* TLMoranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9D0A861BCBC99500E533C1 /* TLMoran */ = {
+			isa = PBXGroup;
+			children = (
+				CD7AA97C1BD8A12200112BAE /* AppDelegate */,
+				CD9D0ABD1BCBCF7200E533C1 /* Controllers */,
+				CD9D0AD41BCBCF7200E533C1 /* Views */,
+				CD9D0AC21BCBCF7200E533C1 /* Models */,
+				CD7C07361BD33BC800A25C7C /* Global */,
+				CDC0D0561BCCA74100C8FCD6 /* Requests */,
+				CDC0D0551BCCA74100C8FCD6 /* Parsers */,
+				CDC0D0571BCCA74100C8FCD6 /* Utilities */,
+				CD9D0AC11BCBCF7200E533C1 /* Library */,
+				CD9D0ACB1BCBCF7200E533C1 /* Resources */,
+				CD9D0AD11BCBCF7200E533C1 /* Supporting Files */,
+			);
+			path = TLMoran;
+			sourceTree = "<group>";
+		};
+		CD9D0AA01BCBC99500E533C1 /* TLMoranTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AA11BCBC99500E533C1 /* TLMoranTests.m */,
+				CD9D0AA31BCBC99500E533C1 /* Info.plist */,
+			);
+			path = TLMoranTests;
+			sourceTree = "<group>";
+		};
+		CD9D0AAB1BCBC99500E533C1 /* TLMoranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AAC1BCBC99500E533C1 /* TLMoranUITests.m */,
+				CD9D0AAE1BCBC99500E533C1 /* Info.plist */,
+			);
+			path = TLMoranUITests;
+			sourceTree = "<group>";
+		};
+		CD9D0ABD1BCBCF7200E533C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0ABE1BCBCF7200E533C1 /* LoginAndRegister */,
+				CD9D0ABF1BCBCF7200E533C1 /* My */,
+				CD9D0AC01BCBCF7200E533C1 /* Square */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD9D0ABE1BCBCF7200E533C1 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AE11BCBD23400E533C1 /* TLMLoginViewController.h */,
+				CD9D0AE21BCBD23400E533C1 /* TLMLoginViewController.m */,
+				CD7BF87E1BCE1F8800E7788D /* TLMRegisterViewController.h */,
+				CD7BF87F1BCE1F8800E7788D /* TLMRegisterViewController.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		CD9D0ABF1BCBCF7200E533C1 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CD7C07331BD334FE00A25C7C /* TLMMyTableViewController.h */,
+				CD7C07341BD334FE00A25C7C /* TLMMyTableViewController.m */,
+				CD9ED2EF1BD3892E00C0BE4B /* TLMHomepageViewController.h */,
+				CD9ED2F01BD3892E00C0BE4B /* TLMHomepageViewController.m */,
+				CDCC0DE11BD8B31D0014B874 /* TLMNickNameViewController.h */,
+				CDCC0DE21BD8B31D0014B874 /* TLMNickNameViewController.m */,
+				CDD6E2D41BD8D53500D1CABD /* TLMHeadImageViewController.h */,
+				CDD6E2D51BD8D53500D1CABD /* TLMHeadImageViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CD9D0AC01BCBCF7200E533C1 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		CD9D0AC11BCBCF7200E533C1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		CD9D0AC21BCBCF7200E533C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AC31BCBCF7200E533C1 /* Picture */,
+				CD9D0AC41BCBCF7200E533C1 /* Square */,
+				CD9D0AC51BCBCF7200E533C1 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD9D0AC31BCBCF7200E533C1 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
+		CD9D0AC41BCBCF7200E533C1 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		CD9D0AC51BCBCF7200E533C1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0D05B1BCCA83800C8FCD6 /* TLMUserModel.h */,
+				CDC0D05C1BCCA83800C8FCD6 /* TLMUserModel.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CD9D0ACB1BCBCF7200E533C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0ACC1BCBCF7200E533C1 /* Assets.xcassets */,
+				CD9D0ACD1BCBCF7200E533C1 /* LaunchScreen.storyboard */,
+				CD9D0ADD1BCBD16000E533C1 /* Main.xcassets */,
+				CD7C072F1BD2815800A25C7C /* My.xcassets */,
+				CD7C07311BD2818C00A25C7C /* Square.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD9D0AD11BCBCF7200E533C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AD21BCBCF7200E533C1 /* Info.plist */,
+				CD9D0AD31BCBCF7200E533C1 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9D0AD41BCBCF7200E533C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0AD61BCBCF7200E533C1 /* Storyboard */,
+				CD9D0AD51BCBCF7200E533C1 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD9D0AD51BCBCF7200E533C1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CD9D0AD61BCBCF7200E533C1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D0ADF1BCBD1CD00E533C1 /* LoginAndRegister.storyboard */,
+				CD7C072A1BD277C400A25C7C /* TLMMy.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CDC0D0551BCCA74100C8FCD6 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0D0611BCCBF0700C8FCD6 /* TLMLoginRequestParser.h */,
+				CDC0D0621BCCBF0700C8FCD6 /* TLMLoginRequestParser.m */,
+				CDDBE9C41BCE569500ABE158 /* TLMRegisterRequestParser.h */,
+				CDDBE9C51BCE569500ABE158 /* TLMRegisterRequestParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		CDC0D0561BCCA74100C8FCD6 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCC0DE81BD8B3B90014B874 /* LoginAndRegister */,
+				CDCC0DE41BD8B3850014B874 /* My */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		CDC0D0571BCCA74100C8FCD6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0D05E1BCCACA800C8FCD6 /* BLMultipartForm.h */,
+				CDC0D05F1BCCACA800C8FCD6 /* BLMultipartForm.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CDCC0DE41BD8B3850014B874 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CDCC0DE51BD8B3850014B874 /* TLMGetImage.h */,
+				CDCC0DE61BD8B3850014B874 /* TLMGetImage.m */,
+				CDCC0DEF1BD8B43A0014B874 /* TLMReNameRequest.h */,
+				CDCC0DF01BD8B43A0014B874 /* TLMReNameRequest.m */,
+				CDCC0DF21BD8C3630014B874 /* TLMReImageRequest.h */,
+				CDCC0DF31BD8C3630014B874 /* TLMReImageRequest.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CDCC0DE81BD8B3B90014B874 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				CDCC0DE91BD8B3B90014B874 /* TLMLoginRequest.h */,
+				CDCC0DEA1BD8B3B90014B874 /* TLMLoginRequest.m */,
+				CDCC0DEB1BD8B3B90014B874 /* TLMRegisterRequest.h */,
+				CDCC0DEC1BD8B3B90014B874 /* TLMRegisterRequest.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9D0A831BCBC99500E533C1 /* TLMoran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9D0AB11BCBC99500E533C1 /* Build configuration list for PBXNativeTarget "TLMoran" */;
+			buildPhases = (
+				CD9D0A801BCBC99500E533C1 /* Sources */,
+				CD9D0A811BCBC99500E533C1 /* Frameworks */,
+				CD9D0A821BCBC99500E533C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLMoran;
+			productName = TLMoran;
+			productReference = CD9D0A841BCBC99500E533C1 /* TLMoran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9D0A9C1BCBC99500E533C1 /* TLMoranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9D0AB41BCBC99500E533C1 /* Build configuration list for PBXNativeTarget "TLMoranTests" */;
+			buildPhases = (
+				CD9D0A991BCBC99500E533C1 /* Sources */,
+				CD9D0A9A1BCBC99500E533C1 /* Frameworks */,
+				CD9D0A9B1BCBC99500E533C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9D0A9F1BCBC99500E533C1 /* PBXTargetDependency */,
+			);
+			name = TLMoranTests;
+			productName = TLMoranTests;
+			productReference = CD9D0A9D1BCBC99500E533C1 /* TLMoranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9D0AA71BCBC99500E533C1 /* TLMoranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9D0AB71BCBC99500E533C1 /* Build configuration list for PBXNativeTarget "TLMoranUITests" */;
+			buildPhases = (
+				CD9D0AA41BCBC99500E533C1 /* Sources */,
+				CD9D0AA51BCBC99500E533C1 /* Frameworks */,
+				CD9D0AA61BCBC99500E533C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9D0AAA1BCBC99500E533C1 /* PBXTargetDependency */,
+			);
+			name = TLMoranUITests;
+			productName = TLMoranUITests;
+			productReference = CD9D0AA81BCBC99500E533C1 /* TLMoranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9D0A7C1BCBC99500E533C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tiyang Lou";
+				TargetAttributes = {
+					CD9D0A831BCBC99500E533C1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CD9D0A9C1BCBC99500E533C1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CD9D0A831BCBC99500E533C1;
+					};
+					CD9D0AA71BCBC99500E533C1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CD9D0A831BCBC99500E533C1;
+					};
+				};
+			};
+			buildConfigurationList = CD9D0A7F1BCBC99500E533C1 /* Build configuration list for PBXProject "TLMoran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9D0A7B1BCBC99500E533C1;
+			productRefGroup = CD9D0A851BCBC99500E533C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9D0A831BCBC99500E533C1 /* TLMoran */,
+				CD9D0A9C1BCBC99500E533C1 /* TLMoranTests */,
+				CD9D0AA71BCBC99500E533C1 /* TLMoranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9D0A821BCBC99500E533C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9D0AD81BCBCF7200E533C1 /* Assets.xcassets in Resources */,
+				CD7C072B1BD277C400A25C7C /* TLMMy.storyboard in Resources */,
+				CD7C07321BD2818C00A25C7C /* Square.xcassets in Resources */,
+				CD9D0ADE1BCBD16000E533C1 /* Main.xcassets in Resources */,
+				CD9D0AE01BCBD1CD00E533C1 /* LoginAndRegister.storyboard in Resources */,
+				CD9D0AD91BCBCF7200E533C1 /* LaunchScreen.storyboard in Resources */,
+				CD7C07301BD2815800A25C7C /* My.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D0A9B1BCBC99500E533C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D0AA61BCBC99500E533C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9D0A801BCBC99500E533C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC0D0601BCCACA800C8FCD6 /* BLMultipartForm.m in Sources */,
+				CDCC0DED1BD8B3B90014B874 /* TLMLoginRequest.m in Sources */,
+				CDDBE9C61BCE569500ABE158 /* TLMRegisterRequestParser.m in Sources */,
+				CD7C07351BD334FE00A25C7C /* TLMMyTableViewController.m in Sources */,
+				CDCC0DE31BD8B31D0014B874 /* TLMNickNameViewController.m in Sources */,
+				CD7C07391BD33BEC00A25C7C /* TLMGlobal.m in Sources */,
+				CDC0D0631BCCBF0700C8FCD6 /* TLMLoginRequestParser.m in Sources */,
+				CDCC0DEE1BD8B3B90014B874 /* TLMRegisterRequest.m in Sources */,
+				CD9D0ADC1BCBCF7200E533C1 /* main.m in Sources */,
+				CD7AA97F1BD8A12200112BAE /* AppDelegate.m in Sources */,
+				CD9D0AE31BCBD23400E533C1 /* TLMLoginViewController.m in Sources */,
+				CDCC0DF41BD8C3630014B874 /* TLMReImageRequest.m in Sources */,
+				CDCC0DF11BD8B43A0014B874 /* TLMReNameRequest.m in Sources */,
+				CD9ED2F11BD3892E00C0BE4B /* TLMHomepageViewController.m in Sources */,
+				CDD6E2D61BD8D53500D1CABD /* TLMHeadImageViewController.m in Sources */,
+				CDC0D05D1BCCA83800C8FCD6 /* TLMUserModel.m in Sources */,
+				CD7BF8801BCE1F8800E7788D /* TLMRegisterViewController.m in Sources */,
+				CDCC0DE71BD8B3850014B874 /* TLMGetImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D0A991BCBC99500E533C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9D0AA21BCBC99500E533C1 /* TLMoranTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D0AA41BCBC99500E533C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9D0AAD1BCBC99500E533C1 /* TLMoranUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9D0A9F1BCBC99500E533C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9D0A831BCBC99500E533C1 /* TLMoran */;
+			targetProxy = CD9D0A9E1BCBC99500E533C1 /* PBXContainerItemProxy */;
+		};
+		CD9D0AAA1BCBC99500E533C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9D0A831BCBC99500E533C1 /* TLMoran */;
+			targetProxy = CD9D0AA91BCBC99500E533C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9D0ACD1BCBCF7200E533C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9D0ACE1BCBCF7200E533C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9D0AAF1BCBC99500E533C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD9D0AB01BCBC99500E533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9D0AB21BCBC99500E533C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TLMoran/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loutiyang.TLMoran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD9D0AB31BCBC99500E533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TLMoran/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loutiyang.TLMoran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD9D0AB51BCBC99500E533C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLMoranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loutiyang.TLMoranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLMoran.app/TLMoran";
+			};
+			name = Debug;
+		};
+		CD9D0AB61BCBC99500E533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLMoranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loutiyang.TLMoranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLMoran.app/TLMoran";
+			};
+			name = Release;
+		};
+		CD9D0AB81BCBC99500E533C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLMoranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loutiyang.TLMoranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLMoran;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD9D0AB91BCBC99500E533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLMoranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loutiyang.TLMoranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLMoran;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9D0A7F1BCBC99500E533C1 /* Build configuration list for PBXProject "TLMoran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9D0AAF1BCBC99500E533C1 /* Debug */,
+				CD9D0AB01BCBC99500E533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9D0AB11BCBC99500E533C1 /* Build configuration list for PBXNativeTarget "TLMoran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9D0AB21BCBC99500E533C1 /* Debug */,
+				CD9D0AB31BCBC99500E533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9D0AB41BCBC99500E533C1 /* Build configuration list for PBXNativeTarget "TLMoranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9D0AB51BCBC99500E533C1 /* Debug */,
+				CD9D0AB61BCBC99500E533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9D0AB71BCBC99500E533C1 /* Build configuration list for PBXNativeTarget "TLMoranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9D0AB81BCBC99500E533C1 /* Debug */,
+				CD9D0AB91BCBC99500E533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9D0A7C1BCBC99500E533C1 /* Project object */;
+}
