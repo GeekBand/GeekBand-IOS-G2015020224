@@ -259,8 +259,8 @@
                                     <constraint firstAttribute="width" secondItem="R0I-ZS-FeS" secondAttribute="height" multiplier="1:1" id="fFk-eo-XJL"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2n-mI-G4J">
-                                <rect key="frame" x="36" y="400" width="249" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2n-mI-G4J">
+                                <rect key="frame" x="32" y="400" width="256" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.90196078430000004" green="0.41960784309999999" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="更换头像">

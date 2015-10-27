@@ -1,14 +1,14 @@
 //
-//  TLMUserModel.m
+//  TLMPictureModel.m
 //  TLMoran
 //
-//  Created by Tiyang Lou on 10/13/15.
+//  Created by Tiyang Lou on 10/24/15.
 //  Copyright © 2015 Tiyang Lou. All rights reserved.
 //
 
-#import "TLMUserModel.h"
+#import "TLMPictureModel.h"
 
-@implementation TLMUserModel
+@implementation TLMPictureModel
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
     

@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "TLMMyTableViewController.h"
 #import "TLMLoginViewController.h"
+#import "TLMSquareViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -20,23 +22,20 @@
 @implementation AppDelegate
 
 - (void)loadMainViewWithController:(UIViewController *)controller {
-    UIViewController *squareVC = [[UIViewController alloc] init];
-    squareVC.view.backgroundColor = [UIColor whiteColor];
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:squareVC];
-    nav1.navigationBar.barTintColor = [[UIColor alloc] initWithRed:230/255.0 green:106/255.0 blue:58/255.0 alpha:1];
+    UIStoryboard *squareStoryboard = [UIStoryboard storyboardWithName:@"TLMSquare" bundle:[NSBundle mainBundle]];
+    UINavigationController *nav1 = [squareStoryboard instantiateInitialViewController];
     
     nav1.tabBarItem.title = @"广场";
     nav1.tabBarItem.image = [UIImage imageNamed:@"square"];
     
-    UIStoryboard *myStoryboard = [UIStoryboard storyboardWithName:@"TLMMy" bundle:[NSBundle mainBundle]];
-    //TLMMyTableViewController *myVC = [[TLMMyTableViewController alloc] init];
-    UINavigationController *nav2 = [myStoryboard instantiateViewControllerWithIdentifier:@"MyStoryboard"];
     
-    nav2.tabBarItem.title = @"我的";
-    nav2.tabBarItem.image = [UIImage imageNamed:@"my"];
+    UIStoryboard *myStoryboard = [UIStoryboard storyboardWithName:@"TLMMy" bundle:[NSBundle mainBundle]];
+    TLMMyTableViewController *myVC = [myStoryboard instantiateViewControllerWithIdentifier:@"MyStoryboard"];
+    myVC.tabBarItem.title = @"我的";
+    myVC.tabBarItem.image = [UIImage imageNamed:@"my"];
     
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[nav1, nav2];
+    self.tabBarController.viewControllers = @[nav1, myVC];
     
     [controller presentViewController:self.tabBarController animated:YES completion:nil];
     [UIView animateWithDuration:0.3
